@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link fontawesome -->
+    <script src="https://kit.fontawesome.com/135bc630af.js" crossorigin="anonymous"></script>
+    <!-- Links fuentes externas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>PetCare-Proyecto Final 2° entrega</title>
+</head>
+<body>
+    <div class="grid-container">
+        <nav>
+            <i>
+                <a href="#"><img src="" alt="logo"></a>
+            </i>
+            <ul>
+                <li>
+                    <a href="#sobreNosotros">About</a>
+                </li>
+                <li>
+                    <a href="#servicios">Services</a>
+                </li>
+                <li>
+                    <a href="#productos">Shop</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contact</a>
+                </li>
+            </ul>
+            <a href="#contenedorCarrito">
+                <img src="img/shopping-cart.png" alt="carrito">
+            </a>
+            <span id="cartCounter"></span> 
+        </nav>
+
+        <header>
+            <h1 id="inicio">PET CARE</h1>
+            <h2>cuidamos a los que mas te quieren</h2>
+        </header>
+
+        <main>
+            <section class="secNosotros" id="sobreNosotros">
+                <h2 class="tituloSec">ABOUT US</h2>
+                <h2>QUE QUERES SABER SOBRE NOSOTROS? ELEGI Y TE LO CONTAMOS</h2>
+                <div class="btnContainer">
+                    <button id="btn1">Sucursales</button>
+                    <button id="btn2">Staff Medico</button>
+                    <button id="btn3">Empresas asociadas</button>
+                    <button id="btn4">Bio PetCare</button>
+                </div>
+                <div id="aboutContainer"></div>
+        
+            </section>
+        
+            <section class="secServicios" id="servicios">
+                <h2  class="tituloSec">SERVICES</h2>
+                <h3 class="tituloServicios">Todos nuestros servicios a un click de distancia</h3>
+                <div id="contenedorServ">
+        
+                </div>
+            </section>
+        
+            <section class="secProductos" id="productos">
+                <h2  class="tituloSec">SHOP</h2>
+                <h2>ENCONTRA LOS MEJORES PRODUCTOS AL MEJOR PRECIO </h2>
+        
+                <div id="shopContainer">
+        
+                </div>
+            </section>
+            <section id="contenedorCarrito">
+                <h2 id="precioTotal"></h2>
+                
+            </section>
+
+            <section class="secContacto" id="contacto">
+                <h2 class="tituloSec">CONTACT</h2>
+        
+                <fieldset id="campoForm">
+                    <legend>
+                        Formulario de contacto
+                    </legend>
+                    <form action="" id="formContact">
+                        <label for="">Apellido y nombres</label>
+                        <input id="inAp" type="text">
+                        <label for="">Direccion</label>
+                        <input id="inDi" type="text">
+                        <label for="">Pais</label>
+                        <input id="inPa" type="text" id="">
+                        <label for="">Email</label>
+                        <input id="inEm" type="email">
+                        <label for="">Telefono</label>
+                        <input id="inTe" type="tel" name="" id="">
+                        <input id="inSub" type="submit" value="Send ">                
+                    </form>                    
+                </fieldset>
+
+            </section>
+        </main>
+
+        <footer>
+            <p>Todos los derechos reservados- MJP Designs & Developments</p>
+
+        </footer>
+    </div>
+
+    <!-- links JS -->
+    <script src="js/data.js"></script>
+    <script src="js/eventos.js"></script>
+    <script src="js/appCart.js"></script>
+    <script src="js/index.js"></script>
+   
+</body>
+</html>
